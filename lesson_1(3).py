@@ -1,0 +1,5 @@
+n = int(input('Введите число : '))
+n_double = int(str(n) + str(n))
+n_triple = int(str(n) + str(n) + str(n))
+sum_number = int(n + n_double + n_triple)
+print(sum_number)
